@@ -7,6 +7,7 @@ export default class Porfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
+          <h6>Hover images for project descriptions</h6>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
@@ -14,7 +15,7 @@ export default class Porfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01">
-                      <img style={{width:"100%", height:"160px"}}src={`${item.imgurl}`} className="item-img"/>
+                      <img style={{width:"100%", height:"160px"}} src={`${item.imgurl}`} className="item-img" alt="test"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>

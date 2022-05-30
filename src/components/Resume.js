@@ -63,13 +63,13 @@ export default class Resume extends Component {
         </div>
 
         <div className="row skill">
-          <div className="three columns header-col">
+          <div className="two columns header-col">
             <h1>
               <span>Skills</span>
             </h1>
           </div>
 
-          <div className="nine columns main-col">
+          <div>
             <ul
               style={{ display: "flex", flexWrap: "wrap" }}
               className="skills"
@@ -77,7 +77,7 @@ export default class Resume extends Component {
               {resumeData.skills &&
                 resumeData.skills.map((item) => {
                   return (
-                    <li style={{ padding: "30px", width: "33.3%" }}>
+                    <li style={{paddingTop:"30px",paddingLeft:"50px", marginRight:"60px",width: "33.3333%" }}>
                       <h3>{item.skillname}</h3>
                       <img
                         style={{ width: "80px", height: "80px" }}

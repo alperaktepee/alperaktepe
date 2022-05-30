@@ -108,17 +108,7 @@ let resumeData = {
         "skillname":"GraphQL",
         "skillimage":"images/portfolio/graphql.png"
 
-      },
-      {
-        "skillname":"Firebase",
-        "skillimage":"images/portfolio/firebase.png"
-
-      },
-      {
-        "skillname":"AWS",
-        "skillimage":"images/portfolio/aws.png"
-
-      },
+      }
     ],
     "portfolio":[
       {
