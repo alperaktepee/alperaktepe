@@ -35,7 +35,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/backgroundimg.avif) no-repeat top center;
+  background: #161415 url(../images/bgdddd.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -102,7 +102,7 @@ header .social li a {
   color: #fff;
 }
 header .social li a:hover {
-  color: #11abb0;
+  color: #a31000;
 }
 
 /* scrolldown link */
@@ -126,7 +126,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #11abb0;
+  color: #a31000;
 }
 
 /* primary navigation
@@ -217,7 +217,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: #ff1900;
 }
 
 #about h2 {
@@ -899,7 +899,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-  color: #11abb0;
+  color: #ff1900;
 }
 #contact a:hover,
 #contact a:focus {
